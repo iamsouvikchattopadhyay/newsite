@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .maincontainer{
+    padding: 0 0 500px 0;/*(top,right,bottom,left)*/
+    background-image: url(p5.jpg);
+    background-size: cover;
+    border-bottom: 5px solid #ACABAB ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+  }
+  .nav_social{
+      border: 1px solid black;
+      /*box-shadow: 0 0 50px -30px black;*/
+      padding: 0;
+      text-align: center;
+      background: #ffffff;
+      color:#ffffff;
+      font-size: 2px;
+  }
+  .name_icon{
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    text-align: center;
+    background: #ffffff;
+  }
+  .contact_details{
+    border: 1px solid;
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+  }
+  #head{
+      font-family:Lucidatypewriter, monospace;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: 1px solid black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(3, 0, 0);
+    text-align: center;
+    padding: 25px 16px;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(223, 245, 250);
+  }
+  .footer {
+      position: relative;
+      max-width: auto; /* Maximum width */
+      margin: 0 auto; /* Center it */
+  }
+  .footer img{
+    vertical-align: middle;
+    height: 200px;
+    background-size: cover;
+  
+  }
+  .footer .end {
+      position: absolute; /* Position the background text*/ 
+      bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+      top: 0;
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgb(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+      color: #f1f1f1; /* Grey text */
+      width: 100%; /* Full width */
+      padding: 10px;      
+      box-sizing: border-box;
+    }
